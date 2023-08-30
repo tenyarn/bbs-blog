@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from '../components/HelloWorld.vue';
-
+import Wrap from '../view/wrap.vue'
 const ss = "ss"
 
 </script>
@@ -13,7 +13,9 @@ const ss = "ss"
     </div>
     <div class = "bottom">
         <HelloWorld :msg="ss"></HelloWorld>
+        <Wrap></Wrap>
     </div>
+    
     
 
 </template>

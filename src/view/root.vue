@@ -15,7 +15,8 @@ const ss = "ss"
         <HelloWorld :msg="ss"></HelloWorld>
         <Wrap></Wrap>
     </div>
-    
+    <RouterLink to="test">test</RouterLink>
+    <router-view name="test"></router-view>
     
 
 </template>
